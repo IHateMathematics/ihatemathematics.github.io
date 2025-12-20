@@ -1,21 +1,15 @@
-/* Basic reset */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.6;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background: #f9f9f9;
   color: #333;
-}
-
-header, main, footer {
-  max-width: 800px;
-  margin: auto;
 }
 
 header {
@@ -24,4 +18,8 @@ header {
 
 h1 {
   font-size: 2.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
 }
